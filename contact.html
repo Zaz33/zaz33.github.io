@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="hy">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Կապ - Zaz33 կայք</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Կապ մեզ հետ</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Կապ</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Գլխավոր</a></li>
-            <li><a href="about.html">Մեր մասին</a></li>
-            <li><a href="contact.html">Կապ</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Կապ մեզ հետ</h2>
-        <p>Հասցե՝ Երևան, Հայաստան</p>
-        <p>Էլ.փոստ՝ info@zaz33.am</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Zaz33. Բոլոր իրավունքները պաշտպանված են։</p>
-    </footer>
+<header>
+  <h1>Կապ մեզ հետ</h1>
+</header>
+
+<nav>
+  <a href="index.html">Գլխավոր</a>
+  <a href="about.html">Մեր մասին</a>
+  <a href="contact.html">Կապ</a>
+</nav>
+
+<section>
+  <h2>Ուղարկիր հաղորդագրություն</h2>
+  <form action="mailto:example@example.com" method="post" enctype="text/plain">
+    <label for="name">Անուն:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+    
+    <label for="email">Էլ. փոստ:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+    
+    <label for="message">Հաղորդագրություն:</label><br />
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br /><br />
+    
+    <input type="submit" value="Ուղարկել" />
+    <input type="reset" value="Մաքրել" />
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Zaz33</p>
+</footer>
 </body>
 </html>
